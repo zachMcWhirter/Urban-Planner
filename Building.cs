@@ -31,6 +31,14 @@ namespace Planner
         {
             _owner = Purchaser;
         }
-
+        public void DisplayInformation()
+        {
+            Console.WriteLine($"{_address}");
+            Console.WriteLine("-----------");
+            Console.WriteLine($"Designed by {_designer}");
+            Console.WriteLine($"Constructed on {_dateConstructed}");
+            Console.WriteLine($"Owned by {_owner}");
+            Console.WriteLine($"{Volume} cubic meters of space");
+        }
     }
 }

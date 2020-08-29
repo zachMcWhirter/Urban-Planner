@@ -6,7 +6,15 @@ namespace Planner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("City Under Construction!");
+            Building BobsTacoStand = new Building("321 Jose Way");
+            BobsTacoStand.Stories = 3;
+            BobsTacoStand.Width = 500;
+            BobsTacoStand.Depth = 1000;
+            BobsTacoStand.Construct();
+            BobsTacoStand.Purchase("Bob Bobberson");
+
+            foreach (Building building in )
         }
+
     }
 }
