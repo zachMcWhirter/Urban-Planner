@@ -33,9 +33,9 @@ namespace Planner
             FixEmUpHospital.Purchase("Sister Mary Katherine");
             ListBuildings.Add(FixEmUpHospital);
 
-            BobsTacoStand.DisplayInformation();
-            PetrolKing.DisplayInformation();
-            FixEmUpHospital.DisplayInformation();
+            // BobsTacoStand.DisplayInformation();
+            // PetrolKing.DisplayInformation();
+            // FixEmUpHospital.DisplayInformation();
 
         }
 
