@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Planner
 {
@@ -39,6 +40,7 @@ namespace Planner
             Console.WriteLine($"Constructed on {_dateConstructed}");
             Console.WriteLine($"Owned by {_owner}");
             Console.WriteLine($"{Volume} cubic meters of space");
+            Console.WriteLine("");
         }
     }
 }
