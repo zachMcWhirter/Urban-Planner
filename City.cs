@@ -26,7 +26,7 @@ namespace Planner
         public void Greeting()
         {
             Console.WriteLine($"Greetings! Welcome to {Name}!");
-            Console.WriteLine($"Established: (in the year of our Lord){YearEstablished}");
+            Console.WriteLine($"Established: (in the year of our Lord){YearEstablished.ToString("yyyy")}");
             Console.WriteLine($"The Honorable: {Mayor} serving as Mayor");
             Console.WriteLine();
         }

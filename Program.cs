@@ -38,7 +38,6 @@ namespace Planner
             foreach (Building building in McWhirtersville.ListBuildings)
             {
                 building.DisplayInformation();
-                // Console.WriteLine();
             }
         }
 
