@@ -9,7 +9,6 @@ namespace Planner
         private DateTime _dateConstructed { get; set; }
         private string _address { get; set; }
         private string _owner { get; set; }
-
         public int Stories { get; set; }
         public double Width { get; set; }
         public double Depth { get; set; }

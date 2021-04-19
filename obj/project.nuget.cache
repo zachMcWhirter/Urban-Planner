@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0sEWu3m9ii+mImcnh32/dXWJhNRcsGjoDRvq7yjuZarIzw27/JfwJLyBT/lH2Mc8j3XUcVfdmtSKcAQiDEvUKQ==",
+  "dgSpecHash": "ZTJ2O38BmK0ieJSRsCxeofBFbWDUqtd+076BDiKZ4qJkCKKKedgQCZVOyrZftSdVSWV8hEEfuzuEqWGZ2ZYSwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zachm\\workspace\\csharp\\exercises\\planner\\Planner.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zachm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
